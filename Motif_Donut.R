@@ -1,6 +1,4 @@
 
-rm(list = ls())
-
 suppressPackageStartupMessages({
   library(dplyr)
   library(ggplot2)
@@ -159,4 +157,3 @@ ggsave(
   bg = "white"
 )
 
-cat("✅ Done! Legend enlarged only. Saved to:", normalizePath(out_dir), "\n")
