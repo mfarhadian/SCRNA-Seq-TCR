@@ -1,6 +1,6 @@
 
 
-rm(list = ls())
+
 suppressPackageStartupMessages({
   library(Seurat)
   library(dplyr)
