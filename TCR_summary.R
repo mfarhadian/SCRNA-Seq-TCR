@@ -144,7 +144,3 @@ out_file <- "/data_storage/Summary_file/TCR_summary_CDR3alpha_CDR3beta_VDJ_bothC
 
 openxlsx::write.xlsx(as.data.frame(TCR_summary_final), file = out_file)
 
-# quick check
-print(head(TCR_summary_final, 3))
-print(dim(TCR_summary_final))
-print(sum(TCR_summary_final$Count))
