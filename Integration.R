@@ -20,7 +20,7 @@ library(generics)
 library(pracma)
 library(fields)
 
-wd="/GitHub.com/SCRNA/Batch_11/QC/" 
+wd="/SCRNA/QC/" 
 
 # set WD
 setwd(paste0(wd,"/basic_qc/individual_post_qc_datasets_new_v5/")) 
