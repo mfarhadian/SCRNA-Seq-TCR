@@ -1,7 +1,5 @@
 
 
-rm(list = ls())
-
 suppressPackageStartupMessages({
   library(dplyr)
   library(tidyr)
